@@ -48,5 +48,10 @@ public class UserController {
         userService.deleteUser(uuid);
     }
 
+    // Test API
+    @GetMapping
+    public String helloWorld() {
+        return "Hello World";
+    }
 
 }
