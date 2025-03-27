@@ -1,0 +1,10 @@
+com\spring\crud_api\Entity\UserEntity.class
+com\spring\crud_api\Dto\UserDto$UserDtoBuilder.class
+com\spring\crud_api\Repository\UserRepository.class
+com\spring\crud_api\Controller\UserController.class
+com\spring\crud_api\CrudApiApplication.class
+com\spring\crud_api\Dto\UserDto.class
+com\spring\crud_api\Service\Impl\UserServiceImpl.class
+com\spring\crud_api\Entity\UserEntity$UserEntityBuilder.class
+com\spring\crud_api\Entity\UserEntity$UserEntityBuilderImpl.class
+com\spring\crud_api\Service\UserService.class
