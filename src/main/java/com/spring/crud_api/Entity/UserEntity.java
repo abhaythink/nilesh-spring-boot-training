@@ -1,18 +1,16 @@
 package com.spring.crud_api.Entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import lombok.experimental.SuperBuilder;
 
 import java.util.UUID;
 
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
-@SuperBuilder
+@Builder
 @Entity
 @Table(name = "users")
 public class UserEntity {
@@ -23,8 +21,6 @@ public class UserEntity {
 
     @Builder.Default
     private UUID uuid = UUID.randomUUID();
-
     private String name;
-
     private String email;
 }
